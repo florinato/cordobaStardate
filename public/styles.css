@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #add8e6; /* Fijar el fondo a azul claro */
+    color: #add8e6;
+}
+
+.container {
+    max-width: 600px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid #FFF200;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.output {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid #FFF200; /* Mantener borde amarillo */
+    color: #333; /* Cambia este valor al color que prefieras para el texto */
+}
+
+.conversion-section,
+.settings-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #2a2a2a;
+    border-radius: 5px;
+    border: 2px solid #FFF200; /* Mantener borde amarillo */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 2px solid #FFF200; /* Mantener borde rojo claro */
+    box-sizing: border-box; /* Asegura que el padding y borde se incluyan en el ancho total */
+}
+
+input[type="date"] {
+    width: calc(100% - 0px); /* Ajuste de ancho para evitar desbordamiento */
+    padding: 8px; /* Ajuste del padding para que el tamaño sea coherente */
+    margin-top: 0; /* Quita el margen superior si es necesario */
+}
+
+button {
+    background-color: #2a2a2a;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #87ceeb; 
+}
